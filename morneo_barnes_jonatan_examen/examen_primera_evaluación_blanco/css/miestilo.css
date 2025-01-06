@@ -212,12 +212,15 @@ section .nosotros {
     width:100%;
     height:100%;
     display: flex;
-    justify-content: center;
-    padding:30px;
-    gap:20px;
+    justify-content: space-around;
+    padding: 20px;
+    padding-top: 10px;
     & .contacto{
-        flex:1;
+        display:flex;
+        gap:10px;
+        flex-direction: column;
     }
+  
     
 
 }
